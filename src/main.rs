@@ -13,7 +13,6 @@ use log::{error, info, LevelFilter};
 use vdb_rs::VdbReader;
 use walkdir::WalkDir;
 
-/// Simple program to greet a person
 #[derive(Parser, Debug)]
 #[command(version, about, long_about = None)]
 struct Args {
