@@ -1,0 +1,15 @@
+[package]
+name = "vdb-to-txt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+vdb-rs = { path = "../vdb-rs" }
+clap = { version = "4.5", features = ["derive"] }
+walkdir = "2.5"
+env_logger = "0.11"
+log = "0.4"
+half = "2.4"
+csv = "1.3"
+glam = "0.29"
+rayon = "1.7.0"
