@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-vdb-rs = { path = "../vdb-rs" }
+vdb-rs = { git = "https://github.com/Traverse-Research/vdb-rs/", rev = "5f32682" }
 clap = { version = "4.5", features = ["derive"] }
 walkdir = "2.5"
 env_logger = "0.11"
